@@ -23,7 +23,7 @@ class News extends Component {
                             {
                                 dl.map((value, key) => {
                                     return (
-                                        <NewItems key={key} img={value.img} title={value.title} content={value.content}></NewItems>
+                                        <NewItems key={key} newsId={value.id} img={value.img} title={value.title} content={value.content}></NewItems>
                                     )  
                                 })
                             }

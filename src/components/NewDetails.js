@@ -40,28 +40,28 @@ class NewDetails extends Component {
                     </div>
                     <div className="card-deck">
                     <div className="card">
-                        <a href="chitiettin.html"><img className="card-img-top" src="http://placehold.it/500x300" alt="" /></a>
+                        <a href="/newdetails"><img className="card-img-top" src="http://placehold.it/500x300" alt="" /></a>
                         <div className="card-body">
                         <h4 className="card-title text-center">Title</h4>
                         <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim est, harum hic reiciendis provident laudantium. Magni dolor iusto reprehenderit iure illo illum impedit harum ut, perspiciatis, voluptatibus quam! Molestias, iure.</p>
                         </div>
                     </div>
                     <div className="card">
-                        <a href="chitiettin.html"><img className="card-img-top" src="http://placehold.it/500x300" alt="" /></a>
+                        <a href="/newdetails"><img className="card-img-top" src="http://placehold.it/500x300" alt="" /></a>
                         <div className="card-body ">
                         <h4 className="card-title text-center">Title</h4>
                         <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae neque, magnam vero eos provident autem saepe maiores consequuntur nam. Rerum quis enim adipisci esse nisi culpa, modi ducimus ut molestias.</p>
                         </div>
                     </div>
                     <div className="card">
-                        <a href="chitiettin.html"><img className="card-img-top" src="http://placehold.it/500x300" alt="" /></a>
+                        <a href="/newdetails"><img className="card-img-top" src="http://placehold.it/500x300" alt="" /></a>
                         <div className="card-body">
                         <h4 className="card-title text-center">Title</h4>
                         <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis minus soluta fuga tenetur error modi odio repellat esse voluptas ullam vel, eaque rerum! Consectetur odit praesentium eligendi minus excepturi! Eligendi.</p>
                         </div>
                     </div>
                     <div className="card">
-                        <a href="chitiettin.html"><img className="card-img-top" src="http://placehold.it/500x300" alt="" /></a>
+                        <a href="/newdetails"><img className="card-img-top" src="http://placehold.it/500x300" alt="" /></a>
                         <div className="card-body">
                         <h4 className="card-title text-center">Title</h4>
                         <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis minus soluta fuga tenetur error modi odio repellat esse voluptas ullam vel, eaque rerum! Consectetur odit praesentium eligendi minus excepturi! Eligendi.</p>
