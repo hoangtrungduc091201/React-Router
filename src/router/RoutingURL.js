@@ -13,7 +13,7 @@ class RoutingURL extends Component {
 
                     <Route exact path="/home" component={Home}/>
                     <Route exact path="/news" component={News}/>
-                    <Route exact path="/newdetails" component={NewDetails}/>
+                    <Route exact path="/newdetails/:slug.:id.html" component={NewDetails}/>
                     <Route exact path="/contact" component={Contact}/>
 
              </div>

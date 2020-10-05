@@ -39,7 +39,7 @@ class NewItems extends Component {
                 <div className="card-deck">
                     <div className="card">
                         {/* url: news/tieude-id.html */}
-                        <a href={"/newdetails/" + this.toSlug(this.props.title) + "-" + this.props.newsId +".html" }><img className="card-img-top" src={this.props.img} alt="" /></a>
+                        <a href={"/newdetails/" + this.toSlug(this.props.title) + "." + this.props.newsId +".html" }><img className="card-img-top" src={this.props.img} alt="" /></a>
                         <div className="card-body">
                             <h4 className="card-title">{this.props.title}</h4>
                             <p className="card-text">{this.props.content}</p>
