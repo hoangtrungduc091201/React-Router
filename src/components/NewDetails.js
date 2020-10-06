@@ -19,8 +19,8 @@ class NewDetails extends Component {
                 </header>
                 {/* begin tintuc */}
                 {
-                    dl.map((value, key) => {
-                        if(value.id == this.props.match.params.id){
+                    dl.map((value) => {
+                        if(value.id === parseInt(this.props.match.params.id,20)){
                             return (
                                 <div className="jumbotron jumbotron-fluid">
                                     <div className="container">
@@ -45,16 +45,19 @@ class NewDetails extends Component {
                         </div>
                     </div>
                     <div className="card-deck">
-                        {dl.map((value, key ) => {
-                            if(value.id != this.props.match.params.id){
-                                if(count <=3 ){
-                                    count++;
-                                    return (
-                                        <NewsRelated key ={key} newsId={value.id} img={value.img} title={value.title} content={value.content} />
-                                    )
-                                }
-                            }
-                        })}
+                        {
+                            
+                            dl.map((value, key ) => {
+                                if(value.id !== parseInt(this.props.match.params.id,20)){
+                                    if(count <=3 ){
+                                        count++;
+                                        return (
+                                            <NewsRelated key ={key} newsId={value.id} img={value.img} title={value.title} content={value.content} />
+                                        )
+                                    }
+                                } 
+                             })
+                        }
                     </div>
                 </div>
                 {/* end tintuc */}

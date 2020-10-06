@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
-class NewItems extends Component {
-    constructor(props) {
-        super(props);
-    }
+class NewItems extends Component { 
     toSlug =(str)  =>{
       // Chuyển hết sang chữ thường
                 str = str.toLowerCase();     

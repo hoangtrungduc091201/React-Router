@@ -19,7 +19,7 @@ class Home extends Component {
                         <div className="device">
                             <div className="screen">
                             {/* Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! */}
-                            <img src="https://startbootstrap.github.io/startbootstrap-new-age/img/demo-screen-1.jpg" className="img-fluid"  />
+                            <img src="https://startbootstrap.github.io/startbootstrap-new-age/img/demo-screen-1.jpg" className="img-fluid" alt="Img"  />
                             </div>
                             <div className="button">
                             {/* You can hook the "home button" to some JavaScript events or just remove it */}
@@ -38,8 +38,8 @@ class Home extends Component {
                     <h2 className="section-heading">Discover what all the buzz is about!</h2>
                     <p>Our app is available on any mobile device! Download now to get started!</p>
                     <div className="badges">
-                        <a className="badge-link" href="/"><img src="https://startbootstrap.github.io/startbootstrap-new-age/img/google-play-badge.svg"  /></a>
-                        <a className="badge-link" href="/"><img src="https://startbootstrap.github.io/startbootstrap-new-age/img/app-store-badge.svg"  /></a>
+                        <a className="badge-link" href="/"><img src="https://startbootstrap.github.io/startbootstrap-new-age/img/google-play-badge.svg" alt="Img" /></a>
+                        <a className="badge-link" href="/"><img src="https://startbootstrap.github.io/startbootstrap-new-age/img/app-store-badge.svg"  alt="Img"/></a>
                     </div>
                     </div>
                 </div>

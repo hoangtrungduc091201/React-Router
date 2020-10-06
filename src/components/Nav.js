@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch,  Route, Link, NavLink  } from "react-router-dom";
+import { NavLink  } from "react-router-dom";
 
 class Nav extends Component {
     render() {
@@ -18,9 +18,6 @@ class Nav extends Component {
                         </li>
                         <li className="nav-item">
                             <NavLink to="/news">News</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink to="/newdetails">News Details</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink to="/contact">Contact</NavLink>
